@@ -1,6 +1,8 @@
 import React, { createContext, useState  } from 'react';
 import axios from 'axios';
 
+const SERVER_URI = "https://news-backend000.azurewebsites.net"
+
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
@@ -11,7 +13,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       // Make an API call to your backend for login
-      const response = await axios.post('http://localhost:5000/login', {
+      const response = await axios.post(`${SERVER_URI}/login`, {
         email,
         password,
       });
@@ -29,7 +31,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (email, phone, name, password) => {
     try {
       // Make an API call to your backend for user registration
-      const response = await axios.post('http://localhost:5000/register', {
+      const response = await axios.post(`${SERVER_URI}/register`, {
         email,
         phone,
         name,

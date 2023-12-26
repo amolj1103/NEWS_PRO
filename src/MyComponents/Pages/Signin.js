@@ -3,6 +3,8 @@ import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthContext'; 
 
+const SERVER_URI = ""
+
 const Signin = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -14,7 +16,7 @@ const Signin = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/register', {
+      const response = await axios.post(`${SERVER_URI}/register`, {
         email,
         phone,
         name,
