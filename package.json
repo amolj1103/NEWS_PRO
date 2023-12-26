@@ -20,7 +20,6 @@
   "scripts": {
     "start": "CI=false react-scripts --openssl-legacy-provider start",
     "build": "CI=false react-scripts --openssl-legacy-provider build",
-    "test": "CI=false react-scripts test",
     "eject": "CI=false react-scripts eject"
   },
   "eslintConfig": {
