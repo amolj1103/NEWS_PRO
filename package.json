@@ -18,8 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "CI=false react-scripts --openssl-legacy-provider start",
-    "build": "CI=false react-scripts --openssl-legacy-provider build",
+    "start": "CI=false react-scripts start",
+    "build": "CI=false react-scripts build",
     "eject": "CI=false react-scripts eject"
   },
   "eslintConfig": {
