@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-console.log(process.env)
+console.log("The Process : ", process.env)
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI, {
