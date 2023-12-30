@@ -7,9 +7,10 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+
 
 console.log("The Process : ", process.env)
 
@@ -40,6 +41,7 @@ app.get("/", (req, res) => {
 // Register endpoint
 app.post('/register', async (req, res) => {
   try {
+    console.log(req.body)
     const { email, password } = req.body;
     const existingUser = await User.findOne({ email });
 
