@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
+import {dummyData} from "./data"
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 const Newscontent = (props) => {
@@ -23,9 +24,9 @@ const Newscontent = (props) => {
   const updateNews = async () => {
     setLoading(true);
     try {
-      const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${selectedCategory}&page=${page}&pageSize=${props.pageSize}&apiKey=f8f99d244c6141b1b6e23cf607f3c99f`;
-      const data = await fetch(url);
-      const parsedData = await data.json();
+      //const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${selectedCategory}&page=${page}&pageSize=${props.pageSize}&apiKey=f8f99d244c6141b1b6e23cf607f3c99f`;
+      //const data = await fetch(url);
+      const parsedData = dummyData
       setArticles(parsedData.articles);
       setTotalResults(parsedData.totalResults);
       setLoading(false);
