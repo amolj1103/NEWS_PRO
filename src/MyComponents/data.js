@@ -17,19 +17,6 @@ export const dummyData = {
         },
         {
             "source": {
-                "id": "the-hindu",
-                "name": "The Hindu"
-            },
-            "author": "The Hindu",
-            "title": "SA vs IND first Test | Burger & Co. dash India’s ‘final frontier’ dream, inflict innings defeat - The Hindu",
-            "description": null,
-            "url": "https://www.thehindu.com/sport/cricket/south-africa-vs-india-first-test-in-centurion-day-3/article67683133.ece",
-            "urlToImage": null,
-            "publishedAt": "2023-12-29T10:22:00Z",
-            "content": null
-        },
-        {
-            "source": {
                 "id": null,
                 "name": "Hindustan Times"
             },
@@ -76,7 +63,7 @@ export const dummyData = {
             "title": "India vs South Africa: Ravindra Jadeja could be available for 2nd Test against South Africa - Times of India",
             "description": "Cricket News: Ravindra Jadeja may play the second Test against South Africa on January 3. He reported an upper back spasm before the first Test and couldn't play. H",
             "url": "https://timesofindia.indiatimes.com/sports/cricket/india-in-south-africa/india-vs-south-africa-ravindra-jadeja-could-be-available-for-2nd-test-against-south-africa/articleshow/106374339.cms",
-            "urlToImage": "https://static.toiimg.com/thumb/msid-106374296,width-1070,height-580,imgsize-34928,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "urlToImage": "https://th.bing.com/th/id/OIP.SZTlfyibOvvXszuGr-IMGQHaEK?rs=1&pid=ImgDetMain",
             "publishedAt": "2023-12-29T08:26:50Z",
             "content": null
         },
@@ -232,7 +219,7 @@ export const dummyData = {
             "title": "Share Market LIVE: Nifty trades below 21,750, Sensex near 72,200, Energy and PSU banks top losers - The Financial Express",
             "description": null,
             "url": "https://www.financialexpress.com/market/share-market-today-live-updates-sensex-nifty-rupee-vs-dollar-share-market-live-sensex-nifty-may-open-positive-gift-nifty-up-asian-markets-trade-mixed-december-29-2023-friday-3350274/",
-            "urlToImage": null,
+            "urlToImage": "https://th.bing.com/th/id/R.1812a2a4757d52c0b501dba50ab4d9d6?rik=38q5he9orZnFVA&riu=http%3a%2f%2fwww.bbamantra.com%2fwp-content%2fuploads%2f2017%2f05%2fStock-Market-Indices-SENSEX-NIFTY.jpg&ehk=TPLeCuMts3%2bTxNYjBImIlGY%2ffFmuOhgm5dvUN8tNjXs%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
             "publishedAt": "2023-12-29T06:13:42Z",
             "content": null
         },
@@ -271,7 +258,7 @@ export const dummyData = {
             "title": "‘We need to go save our children’: Residents of Poonch village recall day security forces picked up civilians - The Indian Express",
             "description": null,
             "url": "https://indianexpress.com/article/india/jammu-and-kashmir-residents-topa-pir-security-forces-civilians-death-9087234/",
-            "urlToImage": null,
+            "urlToImage": "https://th.bing.com/th/id/R.748c46948fe52300eaa1cb3903cf8382?rik=OBDg6PzQf%2bcuGQ&riu=http%3a%2f%2fwww.aljazeera.com%2fmritems%2fimages%2f2014%2f7%2f27%2f201472712249541401_8.jpg&ehk=eOEq5BzRYisVvP%2bN3SyEePF8ki%2blhfAzZENPLK20PqI%3d&risl=&pid=ImgRaw&r=0",
             "publishedAt": "2023-12-29T05:53:21Z",
             "content": null
         },
@@ -336,7 +323,7 @@ export const dummyData = {
             "title": "How do we measure distances across the universe? | Explained - The Hindu",
             "description": null,
             "url": "https://www.thehindu.com/sci-tech/science/measuring-universe-distances-cosmic-ladder-explained/article67673748.ece",
-            "urlToImage": null,
+            "urlToImage": "https://www.sciencealert.com/images/articles/processed/galactic_distance_record_1024.jpg",
             "publishedAt": "2023-12-29T05:00:00Z",
             "content": null
         },
@@ -362,7 +349,7 @@ export const dummyData = {
             "title": "NASA's Juno to flyby Jupiter's moon lo on Dec 30; to generate data on planet's volcanic world - DD News",
             "description": "DDNews, News, National News, Indian News, Sports News",
             "url": "https://ddnews.gov.in/international/nasas-juno-flyby-jupiters-moon-lo-dec-30-generate-data-planets-volcanic-world",
-            "urlToImage": null,
+            "urlToImage": "https://scitechdaily.com/images/Juno-Spacecraft-Completes-Flyby-over-Jupiter%E2%80%99s-Great-Red-Spot.jpg",
             "publishedAt": "2023-12-29T04:36:00Z",
             "content": "NASAs Juno spacecraft will on Saturday, December 30, make the closest flyby of Jupiters moon Io that any spacecraft has made in over 20 years. \r\nNASAs Juno spacecraft will on Saturday, December 30, m… [+2410 chars]"
         },
@@ -440,7 +427,7 @@ export const dummyData = {
             "title": "Maine bars Trump from ballot as U.S. Supreme Court weighs State authority to block former President - The Hindu",
             "description": null,
             "url": "https://www.thehindu.com/news/international/maine-bars-trump-from-ballot-as-us-supreme-court-weighs-state-authority-to-block-former-president/article67685778.ece",
-            "urlToImage": null,
+            "urlToImage": "https://th.bing.com/th/id/OIP.Ckf3GKPerGpgUxJea6GTvQHaE8?rs=1&pid=ImgDetMain",
             "publishedAt": "2023-12-29T01:50:00Z",
             "content": null
         },
@@ -466,7 +453,7 @@ export const dummyData = {
             "title": "PM to inaugurate new airport, redeveloped railway station in Ayodhya - The Hindu",
             "description": null,
             "url": "https://www.thehindu.com/news/national/pm-to-inaugurate-new-airport-redeveloped-railway-station-in-ayodhya/article67683891.ece",
-            "urlToImage": null,
+            "urlToImage": "https://pbs.twimg.com/media/Eebja5eXkAEHETk?format=jpg",
             "publishedAt": "2023-12-28T16:09:00Z",
             "content": null
         },

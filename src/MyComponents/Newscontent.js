@@ -60,7 +60,7 @@ const Newscontent = (props) => {
       <h1 className="text-center bg-dark text-info" style={{ marginTop: "70px" }}>
         NewsMonkey: Top Headlines in {capiTalize(selectedCategory)}
       </h1>
-      <div className="d-flex justify-content-center mt-3">
+      {/*<div className="d-flex justify-content-center mt-3">
         <select
           className="form-select w-auto"
           value={selectedCategory}
@@ -75,7 +75,7 @@ const Newscontent = (props) => {
           <option value="sports">Sports</option>
           <option value="technology">Technology</option>
         </select>
-      </div>
+      </div> */}
       {loading && <Spinner />}
       <InfiniteScroll
         dataLength={articles.length}
