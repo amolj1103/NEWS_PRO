@@ -20,21 +20,12 @@ Azure AI Service <br>
 <p align="justify">In the digital age, accessing news is omnipresent, yet the challenge remains in delivering a personalized, interactive, and efficient news-reading experience. Users often face information overload, lack of interactivity, and security concerns in news portals. Furthermore, the absence of a robust platform for new users to easily engage and retrieve relevant information contributes to a less engaging user experience.</p>
 <h2>Project Description</h2>
 <p align="justify">The News Monkey project revolutionizes the way users interact with news online. This project integrates a user-friendly interface for news consumption with advanced features like personalized logins, real-time news updates, and an interactive chatbot for FAQs. The portal offers both existing users and new sign-ups an immersive experience in accessing news, ensuring security, personalization, and efficiency.</p><br>
-<b>Key Features :</b>
-<ul>
-    <li>Seamless Language Translation</li>
-    <li>User-Friendly Interface</li>
-    <li>History Tracking and Recent Searches</li>
-    <li>Azure App Service Hosting</li>
-    <li>Azure SQL Database for Efficient Data Management</li>
-</ul>
-<b>Future Enhancements :</b><br>
-<p align="justify">The Multilingual Content Hub isn't only a standalone venture but a foundation for ability future enhancements. Integrations with additional Azure offerings, which includes Azure Storage for coping with multimedia content and Azure Key Vault for more suitable security, could be explored. Moreover, monitoring and analytics via Azure Monitor and Azure Application Insights pave the manner for continuous improvement and optimization.</p>
 <h2>Core Azure Services</h2>
 <b>Azure Cosmos DB for MongoDB :</b><br><p align="justify"><br>Utilized as the backbone for database management, ensuring scalability, high availability, and performance for storing user data and news content.</p>
 
-<b>Azure App Service :</b><br><p align="justify">Powers both the backend and frontend of the News Monkey website, providing a seamless, scalable, and secure environment for web app hosting.
-Azure Storage Account: Used for storing bot data, ensuring data persistence, and providing secure and scalable storage solutions.</p>
+<b>Azure App Service :</b><br><p align="justify">Powers both the backend and frontend of the News Monkey website, providing a seamless, scalable, and secure environment for web app hosting.</p>
+
+<b>Azure Storage Account :</b><br><p align="justify">Used for storing bot data, ensuring data persistence, and providing secure and scalable storage solutions.</p>
 <h2>Azure AI Service</h2>
 <b>Azure Bot Service using Language & Search :</b><br><br><p align="justify">The News Monkey project leverages Azure Bot Service integrated with Azure Cognitive Services for language understanding and search capabilities. This AI-driven approach allows the News Monkey chatbot to understand and respond to user queries effectively, enhancing user engagement and support.</p>
 <h2>Other Azure Technologies / Services</h2>
